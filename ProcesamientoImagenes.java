@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package procesamientoimagenes;
 
-/**
- *
- * @author isabr
- */
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -24,7 +16,7 @@ public class ProcesamientoImagenes extends JFrame {
         setLayout(new FlowLayout());
 
         // Cargar imagen
-        image = new ImageIcon("C:\\Users\\isabr\\Pictures\\Wallpers\\Vader.jpg");
+        image = new ImageIcon("C:\Users\leirb\Downloads\Logo.jpg");
         imageLabel = new JLabel(image);
         add(imageLabel);
 
